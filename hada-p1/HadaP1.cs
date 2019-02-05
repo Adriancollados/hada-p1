@@ -11,7 +11,14 @@ namespace hada_p1
         public static double Seconds2Minutes(double s)
         {
             double m = 0;
-            m = s / 60;
+            if(s == 0)
+            {
+                return m;
+            }
+            else
+            {
+                m = s / 60;
+            }
             return m;
         }
     }
