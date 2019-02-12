@@ -33,6 +33,7 @@ namespace hada_p1
             {
                 s = m * 60;
             }
+            return s;
         }
     }
 }
