@@ -8,3 +8,7 @@ P2.
 
 P3. 
 	La diferencia es que reset lo restaura directamente sin necesidad de hacer un commit 
+
+P4.
+	Merge no tiene en cuenta que hayan commits pendientes y cuando hacemos rebase, si hay algun commit pendiente, da error
+	hasta que se añadan. 
