@@ -43,5 +43,23 @@ namespace hada_p1
             }
             return s;
         }
+        /// <summary>
+        /// este metodo cambia de horas a minutos
+        /// </summary>
+        /// <param name="h"></param>
+        /// <returns></returns>
+        public static double Horas2Minutes(double h)
+        {
+            double m = 0;
+            if(h == 0)
+            {
+                return m;
+            }
+            else
+            {
+                m = h * 60;
+            }
+            return m;
+        }
     }
 }
