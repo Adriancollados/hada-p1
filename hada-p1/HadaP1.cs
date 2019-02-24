@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace hada_p1
 {
-    class HadaP1  ///Esta clase contiene metodos para convertir de segundos a minutos y viceversa
+    class HadaP1 ///Esta clase contiene metodos para convertir de segundos a minutos y viceversa
     {
-        ///En este metodo pasamos unos segundos como parametro 
-        ///comprobamos si esos segundos son 0 o no, y realizamos las operaciones 
-        /// y devolvemos los minutos
         public static double Seconds2Minutes(double s)
         {
             double m = 0;
